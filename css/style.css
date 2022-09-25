@@ -1,0 +1,121 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.home
+{
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.home-content h3{
+font-size: 50px;
+font-weight: 800px;
+}
+.home-content h1{
+    font-size: 4.4rem;
+    font-weight: 200;
+}
+.icons{
+    background-color: rgba(0,0 ,0 , 0.3);
+    border-radius:250px 250px;
+}
+i{
+    color: white;
+    font-size: 18px;
+}
+.btn{
+transition: background-color 2s;
+transition: color 2s;
+
+}
+.btn:hover{
+    background-color: white;
+    color: #1c1c1c;
+}
+.btn2{
+    transition: background-color 1s;
+    transition: color 1s;
+    
+    }
+    .btn2:hover{
+        background-color: #1c1c1c;
+        color: white;
+    }
+    .about-content h3 {
+        font-weight: 800px;
+    } 
+    .servicrs-content h2{
+        color: #1c1c1c;
+        font-weight: 800;
+    }
+    .icon{
+background-color: tomato;   
+width: 70px;
+height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+transition: background-color 1s;
+}
+.icon .i :hover{
+    background-color: #1c1c1c;
+}
+.i-size{
+    font-size: 30px;
+}
+.card-group h3{
+font-size: 18px;
+font-weight: 1000;
+}
+.card-group p{
+    font-size: 14px;
+}
+.servicrs-content h2{
+    font-weight: bold;
+}
+.servicrs-content{
+margin-top:50px;
+}
+.nav-pills .nav-link.active{
+    background-color: transparent;
+}
+.nav-link {
+    font-weight: 800;
+}
+.carousel-indicators .active{
+    background-color: #1c1c1c;
+}
+.total i {
+    font-size: 25px;
+}
+.one {
+
+transition: transform 1s;
+overflow: hidden;
+}
+.one:hover{
+transform: scale(1.1);
+}
+.contact-us i{
+    font-size: 25px;
+}
+.btn-black{
+background-color: #1c1c1c;
+}
+.footer-black{
+    background-color: #1c1c1c;
+}
+.footer-black h6{
+color: white;
+}
+.work-layer{
+    opacity: 0 !important; 
+    transition: all 1s !important;
+}
+.work-item:hover .work-layer{
+    opacity: 1 !important;
+    border: 3px solid whitesmoke !important;
+    color: #1c1c1c !important;
+}
